@@ -2,10 +2,6 @@
 
 In the project directory, you can run:
 
-
-server
-precommit
-eslint
 ### `yarn start`
 
 Runs the app in the development mode.<br />
