@@ -1,0 +1,70 @@
+html,
+body {
+  background: transparent;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0 0;
+}
+
+#root,
+.App,
+.Layout,
+.content,
+.ant-layout {
+  height: 100%;
+}
+
+.ant-layout{
+  background-color: white;
+}
+
+.content {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.content > * {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-table-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px 0;
+}
+
+.ant-table-wrapper > * {
+  width: 100%;
+}
+
+.ant-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ant-rate {
+  margin-bottom: 1em;
+}
+
+.ant-spin {
+  padding: 30px 0;
+}
